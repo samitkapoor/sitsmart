@@ -24,16 +24,13 @@ class _SitSmartAppBarState extends State<SitSmartAppBar>
     movementController = AnimationController(
         vsync: this, duration: const Duration(milliseconds: 3000));
     animation = Tween<double>(begin: Get.size.width, end: 0).animate(
-        CurvedAnimation(
-            parent: movementController as AnimationController,
-            curve: Curves.linear));
+        CurvedAnimation(parent: movementController!, curve: Curves.linear));
     movementController?.forward();
 
     sizeController = AnimationController(
         vsync: this, duration: const Duration(milliseconds: 4000));
     sizeAnimation = Tween<double>(begin: 500, end: 0).animate(
-      CurvedAnimation(
-          parent: sizeController as AnimationController, curve: Curves.linear),
+      CurvedAnimation(parent: sizeController!, curve: Curves.linear),
     );
 
     sizeController?.forward();
@@ -68,7 +65,7 @@ class _SitSmartAppBarState extends State<SitSmartAppBar>
               width: Get.size.width,
             ),
             AnimatedBuilder(
-              animation: movementController as AnimationController,
+              animation: movementController!,
               builder: (ctx, child) {
                 return Positioned(
                   right: animation!.value,
@@ -76,7 +73,7 @@ class _SitSmartAppBarState extends State<SitSmartAppBar>
                 );
               },
               child: AnimatedBuilder(
-                animation: sizeController as AnimationController,
+                animation: sizeController!,
                 builder: (ctx, child) {
                   return Lottie.asset('assets/animations/plane.json',
                       height: sizeAnimation!.value);

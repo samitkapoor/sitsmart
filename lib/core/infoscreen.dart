@@ -9,17 +9,17 @@ class InformationScreen extends StatelessWidget {
   TextStyle lightStyle = const TextStyle(
     color: Colors.black,
     fontSize: 20,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.bold,
     letterSpacing: 1,
-    fontFamily: 'Product Sans',
+    fontFamily: 'ProductSans',
   );
 
   TextStyle heavyStyle = const TextStyle(
     color: Colors.black,
     fontSize: 22,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w900,
     letterSpacing: 1,
-    fontFamily: 'Product Sans',
+    fontFamily: 'ProductSans',
   );
 
   @override

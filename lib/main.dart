@@ -27,7 +27,7 @@ class SitSmart extends StatelessWidget {
         ),
         textTheme: const TextTheme(
           bodyText1: TextStyle(
-              fontFamily: 'Magilio',
+              fontFamily: 'ProductSans',
               fontSize: 45,
               fontWeight: FontWeight.bold,
               color: Colors.white,

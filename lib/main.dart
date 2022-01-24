@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import 'package:sitsmart/core/homescreen.dart';
 import 'package:sitsmart/core/infoscreen.dart';
+import 'package:sitsmart/core/loadingscreen.dart';
 
 void main() {
   runApp(const SitSmart());
@@ -34,8 +35,10 @@ class SitSmart extends StatelessWidget {
               letterSpacing: 1),
         ),
       ),
-      home: HomeScreen(),
+      home: const LoadingScreen(),
       getPages: [
+        GetPage(
+            name: LoadingScreen.routeName, page: () => const LoadingScreen()),
         GetPage(name: HomeScreen.routeName, page: () => HomeScreen()),
         GetPage(
             name: InformationScreen.routeName, page: () => InformationScreen())

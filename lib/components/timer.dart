@@ -38,7 +38,7 @@ class TimerCard extends StatelessWidget {
                     width: (MediaQuery.of(context).size.height * 0.35) * 0.6,
                     child: CircularProgressIndicator(
                       value: controller.getValue(),
-                      backgroundColor: Colors.blue[500],
+                      backgroundColor: Colors.blue[400],
                       color: Colors.blue[100],
                       strokeWidth: 20,
                     ),

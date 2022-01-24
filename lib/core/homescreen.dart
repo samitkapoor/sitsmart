@@ -8,7 +8,7 @@ import '/models/timermodel.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
-  static const routeName = '/';
+  static const routeName = '/home-screen';
   var controller = Get.put(TimerModel());
   @override
   Widget build(BuildContext context) {

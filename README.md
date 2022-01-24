@@ -1,16 +1,18 @@
 # sitsmart
 
-A new Flutter project.
+This is a lifestyle application that reminds you to take a break every 50 minutes of sitting in front of your computer screen.
 
-## Getting Started
+# Screenshots of the Project
 
-This project is a starting point for a Flutter application.
+Home Page                  |  About Us                   
+:-------------------------:|:-------------------------:|
+![Screenshot_1643040111](https://user-images.githubusercontent.com/77121931/150818662-dce01409-cf22-48cd-9297-fa3e508e9eb9.png)|![Screenshot_1643040137](https://user-images.githubusercontent.com/77121931/150818677-2fdc4981-babe-4dff-b782-45e711e0bf88.png)
 
-A few resources to get you started if this is your first Flutter project:
+# Packages Used: 
+getwidget - https://pub.dev/packages/getwidget <br />
+lottie - https://pub.dev/packages/lottie <br />
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Connect with me on:
+Linkedin: https://www.linkedin.com/in/samit-kapoor/ <br />
+Instagram: https://www.instagram.com/im_samit/ <br />
+Gmail: samitkapoor77@gmail.com

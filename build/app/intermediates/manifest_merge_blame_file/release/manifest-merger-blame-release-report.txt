@@ -14,7 +14,7 @@
 12        android:name="android.app.Application"
 12-->D:\Flutter_Projects\sitsmart\android\app\src\main\AndroidManifest.xml:5:9-42
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.6.0] C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.6.0] C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
 14        android:icon="@mipmap/ic_launcher"
 14-->D:\Flutter_Projects\sitsmart\android\app\src\main\AndroidManifest.xml:6:9-43
 15        android:label="sitsmart" >

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'package:sitsmart/controller/musiccontroller.dart';
+import 'package:sitsmart/controller/timercontroller.dart';
 import 'package:sitsmart/core/homescreen.dart';
 import 'package:sitsmart/core/infoscreen.dart';
 import 'package:sitsmart/core/loadingscreen.dart';
@@ -14,6 +16,8 @@ class SitSmart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var musicController = Get.put(MusicController());
+    var timerController = Get.put(TimerModel());
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'sitsmart',

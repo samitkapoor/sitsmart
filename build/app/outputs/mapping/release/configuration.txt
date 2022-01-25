@@ -127,7 +127,7 @@
 -keep class com.example.sitsmart.MainActivity { <init>(); }
 
 # End of content from D:\Flutter_Projects\sitsmart\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
-# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -142,8 +142,8 @@
   <methods>;
 }
 
-# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\proguard.txt
+# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\61ef02e8f0f19ac7089cb3c73160753b\lifecycle-runtime-2.2.0\proguard.txt
 -keepattributes *Annotation*
 
 -keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
@@ -163,8 +163,8 @@
 
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\proguard.txt
+# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\61ef02e8f0f19ac7089cb3c73160753b\lifecycle-runtime-2.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\8d7928c9f52af5f964a662866fcebb3e\jetified-savedstate-1.0.0\proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -183,15 +183,15 @@
     <init>();
 }
 
-# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\87cae496edf0d81af80ab48e3e89ecce\versionedparcelable-1.1.1\proguard.txt
+# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\8d7928c9f52af5f964a662866fcebb3e\jetified-savedstate-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\884708a9396f81808c0ac10f4b98ea32\versionedparcelable-1.1.1\proguard.txt
 -keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\87cae496edf0d81af80ab48e3e89ecce\versionedparcelable-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\proguard.txt
+# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\884708a9396f81808c0ac10f4b98ea32\versionedparcelable-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\9a0e475eb211916dfa0da9de1d6c02a3\lifecycle-viewmodel-2.1.0\proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -200,8 +200,8 @@
     <init>(android.app.Application);
 }
 
-# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\5a71171d1540c135b3d9f6c95d35b6cd\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\9a0e475eb211916dfa0da9de1d6c02a3\lifecycle-viewmodel-2.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\0451a7a65b542f86b15eb4fe78e151b8\rules\lib\META-INF\proguard\androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -221,8 +221,8 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\5a71171d1540c135b3d9f6c95d35b6cd\rules\lib\META-INF\proguard\androidx-annotations.pro
-# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\a861f0b05a17132e2f96ff286e3c4f23\jetified-annotation-experimental-1.1.0\proguard.txt
+# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\0451a7a65b542f86b15eb4fe78e151b8\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\5bfc0955e244073bdc8cc139cda5e092\jetified-annotation-experimental-1.1.0\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -247,7 +247,7 @@
 -dontwarn kotlin.annotation.Retention
 -dontwarn kotlin.annotation.Target
 
-# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\a861f0b05a17132e2f96ff286e3c4f23\jetified-annotation-experimental-1.1.0\proguard.txt
+# End of content from C:\Users\Samit\.gradle\caches\transforms-2\files-2.1\5bfc0955e244073bdc8cc139cda5e092\jetified-annotation-experimental-1.1.0\proguard.txt
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

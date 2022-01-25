@@ -4,12 +4,12 @@ import 'package:get/get.dart';
 import '/components/animatedsitsmartappbar.dart';
 import '/components/timer.dart';
 
-import '/models/timermodel.dart';
+import '../controller/timercontroller.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
   static const routeName = '/home-screen';
-  var controller = Get.put(TimerModel());
+  var controller = Get.find<TimerModel>();
   @override
   Widget build(BuildContext context) {
     return SafeArea(

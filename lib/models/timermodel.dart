@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:get/get.dart';
 
+import 'package:sitsmart/components/completedialog.dart';
+
 enum TimerState { play, pause }
 
 class TimerModel extends GetxController {
@@ -36,6 +38,11 @@ class TimerModel extends GetxController {
   }
 
   void stopTimer() {
+    if (secondsPassBy.value == limit) {
+      Get.dialog(
+        dialogWidget(),
+      );
+    }
     secondsPassBy.value = 0;
     hour.value = 0;
     minutes.value = 50;

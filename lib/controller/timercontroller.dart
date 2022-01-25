@@ -17,7 +17,7 @@ class TimerModel extends GetxController {
   Timer? timer;
 
   void startTimer() {
-    timer = Timer.periodic(const Duration(milliseconds: 1), (timer) {
+    timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (secondsPassBy.value == limit) {
         state = TimerState.pause;
         stopTimer();

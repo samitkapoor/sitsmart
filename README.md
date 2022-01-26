@@ -13,6 +13,7 @@ Home Page                  |  About Us                 | Video
 # Packages Used: 
 getwidget - https://pub.dev/packages/getwidget <br />
 lottie - https://pub.dev/packages/lottie <br />
+audioplayers - https://pub.dev/packages/audioplayers <br/>
 
 # Connect with me on:
 Linkedin: https://www.linkedin.com/in/samit-kapoor/ <br />

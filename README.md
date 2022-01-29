@@ -6,13 +6,14 @@ This is a lifestyle application that reminds you to take a break every 50 minute
 
 Home Page                  |  About Us                 | Video  
 :-------------------------:|:-------------------------:|:-------------------------:|
-![Screenshot_1643040111](https://user-images.githubusercontent.com/77121931/150818662-dce01409-cf22-48cd-9297-fa3e508e9eb9.png)|![Screenshot_1643040137](https://user-images.githubusercontent.com/77121931/150818677-2fdc4981-babe-4dff-b782-45e711e0bf88.png)|[![Watch the video](https://user-images.githubusercontent.com/77121931/150821111-5098a6c0-ecc0-40b7-b3fd-5c1ca70b269a.png)](https://user-images.githubusercontent.com/77121931/150820539-d9031937-81ed-425e-8443-b9e258c87c27.mp4)
+![Screenshot_1643040111](https://user-images.githubusercontent.com/77121931/150818662-dce01409-cf22-48cd-9297-fa3e508e9eb9.png)|![Screenshot_1643040137](https://user-images.githubusercontent.com/77121931/150818677-2fdc4981-babe-4dff-b782-45e711e0bf88.png)|[![Watch the video](https://user-images.githubusercontent.com/77121931/150821111-5098a6c0-ecc0-40b7-b3fd-5c1ca70b269a.png)](https://user-images.githubusercontent.com/77121931/151032408-5d2f55bc-3e11-4d19-9900-a82df2e1ae60.mp4)
 
 
 
 # Packages Used: 
 getwidget - https://pub.dev/packages/getwidget <br />
 lottie - https://pub.dev/packages/lottie <br />
+audioplayers - https://pub.dev/packages/audioplayers <br/>
 
 # Connect with me on:
 Linkedin: https://www.linkedin.com/in/samit-kapoor/ <br />

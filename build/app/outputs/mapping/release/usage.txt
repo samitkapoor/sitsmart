@@ -3074,8 +3074,8 @@ com.google.common.base.CaseFormat$2
 androidx.fragment.app.FragmentContainer
 com.google.common.collect.Maps$EntrySet
 com.google.errorprone.annotations.concurrent.LockMethod
-androidx.core.app.JobIntentService$JobWorkEnqueuer
 android.support.v4.os.ResultReceiver
+androidx.core.app.JobIntentService$JobWorkEnqueuer
 androidx.arch.core.R
 androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 androidx.lifecycle.LifecycleRegistry:
@@ -3183,9 +3183,9 @@ androidx.core.widget.ListPopupWindowCompat
 com.google.common.reflect.TypeResolver
 androidx.core.app.AlarmManagerCompat
 androidx.core.graphics.drawable.WrappedDrawableApi14
-com.google.common.cache.LocalCache$Strength$1
-com.google.common.collect.MultimapBuilder$LinkedHashSetSupplier
 com.google.common.primitives.Longs$LexicographicalComparator
+com.google.common.collect.MultimapBuilder$LinkedHashSetSupplier
+com.google.common.cache.LocalCache$Strength$1
 com.google.common.collect.ArrayTable$ArrayMap$1
 com.google.common.collect.Multimaps$CustomSetMultimap
 androidx.core.location.GnssStatusCompat
@@ -4128,9 +4128,9 @@ kotlin.sequences.GeneratorSequence
 kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1
 androidx.customview.widget.ExploreByTouchHelper
 androidx.annotation.CheckResult
-io.flutter.embedding.engine.systemchannels.PlatformViewsChannel:
-    private static final java.lang.String TAG
 io.flutter.embedding.engine.systemchannels.PlatformChannel:
+    private static final java.lang.String TAG
+io.flutter.embedding.engine.systemchannels.PlatformViewsChannel:
     private static final java.lang.String TAG
 androidx.core.animation.AnimatorKt$addListener$4
 kotlin.Suppress
@@ -5663,8 +5663,8 @@ androidx.core.content.ContentResolverCompat
 androidx.lifecycle.viewmodel.R
 androidx.lifecycle.ReportFragment
 com.google.common.collect.Multimaps$MapMultimap$1$1
-com.google.common.collect.MapMakerInternalMap$Segment
 com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys$5
+com.google.common.collect.MapMakerInternalMap$Segment
 com.google.common.base.Utf8
 com.google.common.graph.AbstractNetwork$1$1
 com.google.common.reflect.Types$1

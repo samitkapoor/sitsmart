@@ -9,7 +9,7 @@ class TimerCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<TimerModel>(
+    return GetBuilder<TimerController>(
       builder: (controller) {
         return Container(
           margin: const EdgeInsets.symmetric(horizontal: 10),

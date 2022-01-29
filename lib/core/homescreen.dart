@@ -9,7 +9,7 @@ import '../controller/timercontroller.dart';
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
   static const routeName = '/home-screen';
-  var controller = Get.find<TimerModel>();
+  var controller = Get.find<TimerController>();
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
-          child: GetBuilder<TimerModel>(builder: (controller) {
+          child: GetBuilder<TimerController>(builder: (controller) {
             return FloatingActionButton(
               onPressed: () {
                 controller.changeTimerState();

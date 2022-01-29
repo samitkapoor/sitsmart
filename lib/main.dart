@@ -17,7 +17,7 @@ class SitSmart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var musicController = Get.put(MusicController());
-    var timerController = Get.put(TimerModel());
+    var timerController = Get.put(TimerController());
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'sitsmart',

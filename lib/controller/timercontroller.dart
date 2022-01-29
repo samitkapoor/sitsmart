@@ -7,7 +7,7 @@ import 'package:sitsmart/controller/musiccontroller.dart';
 
 enum TimerState { play, pause }
 
-class TimerModel extends GetxController {
+class TimerController extends GetxController {
   int limit = 3000;
   RxInt secondsPassBy = 0.obs;
   RxInt hour = 0.obs;

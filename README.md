@@ -2,13 +2,9 @@
 
 This is a lifestyle application that reminds you to take a break every 50 minutes of sitting in front of your computer screen.
 
-# Screenshots of the Project
+# Preview of the Project
 
-Home Page                  |  About Us                 | Video  
-:-------------------------:|:-------------------------:|:-------------------------:|
-![Screenshot_1643040111](https://user-images.githubusercontent.com/77121931/150818662-dce01409-cf22-48cd-9297-fa3e508e9eb9.png)|![Screenshot_1643040137](https://user-images.githubusercontent.com/77121931/150818677-2fdc4981-babe-4dff-b782-45e711e0bf88.png)|[![Watch the video](https://user-images.githubusercontent.com/77121931/151836583-57982e36-ce28-495e-b851-87aedc9ef038.png)](https://user-images.githubusercontent.com/77121931/151032408-5d2f55bc-3e11-4d19-9900-a82df2e1ae60.mp4)
-
-
+![SmartSelect_20220203-174920](https://user-images.githubusercontent.com/77121931/152341807-54c68d75-711c-4efa-b5ba-5bccb6cd2aba.gif)![SmartSelect_20220203-175005](https://user-images.githubusercontent.com/77121931/152341827-2dfdda01-f997-43e7-a314-5b977c86727e.gif)
 
 # Packages Used: 
 getwidget - https://pub.dev/packages/getwidget <br />
